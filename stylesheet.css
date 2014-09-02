@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+/*FONT SQUIRREL*/
+@font-face {
+    font-family: 'colaborate-thinregular';
+    src: url('webfonts/ColabThi-webfont.eot');
+    src: url('webfonts/ColabThi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/ColabThi-webfont.woff') format('woff'),
+         url('webfonts/ColabThi-webfont.svg#colaborate-thinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Styling */
+body {
+	background-color:#929292;
+	color: #ffffff;	
+	font-family:Helvetica, sans-serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#header img {
+	display: block;
+	width: 300px;
+	height: 300px;
+	margin: 20px auto 0px auto;	
+}
+
+#header h1 {
+	font-family: 'colaborate-thinregular', Helvetica, sans-serif;
+	font-size:2.5em;	
+	text-align: center;
+	overflow: hidden;
+}
+
+h1 span {
+	font-size:1.75em;
+}
+
+h2 {
+	font-size:1.75em;
+	font-family: 'colaborate-thinregular', Helvetica, sans-serif;
+	color:#FFB000;
+	display: inline;
+}
+
+h3 {
+	font-size: 1.25em;
+	font-family: 'colaborate-thinregular', Helvetica, sans-serif;	
+}
+
+p {
+	font-size: 1em;
+	display: inline-block;	
+}
+
+ul {
+	list-style-type: square
+}
+
+footer h3 {
+	display: inline;	
+	font-size: 1.5em;
+}
+
+a, a:visited {
+	text-decoration:none;
+	color:#00CDFF;
+}
+
+a:hover {
+	color:#FFB000;
+}
+
+a:active {
+	color:#000000;
+}
+
+#Experience {
+	padding: 0px 6px 0px 10px;
+}
+
+#Education {
+	padding: 0px 6px 0px 10px;
+}
+
+#Interests {
+	padding: 0px 6px 0px 10px;
+}
+
+#Footer {
+	padding: 10px 0px 10px 0px;
+	text-align:center;
+	background-color: #737373;
+}
+
+/* positioning */
+
+/*** pulls heading out ***/
+.headerbox {
+	position: relative;
+	left: -80px;	
+	background-color: #737373;
+	width: 175px;
+	text-align:center;
+	padding: 10px 0px;
+}
+
+#middle{
+	background-color:#464646;
+	height: 100%;
+	margin: 0 auto;
+	width: 900px;
+}
+
+#header {
+	padding-top: 1px;
+	padding-left: 6px;	
+	padding-bottom:8px;
+	background-color:#737373;
+	width: 894px;
+}
